@@ -1,0 +1,15 @@
+{
+  "name": "nuru",
+  "version": "1.0.0",
+  "description": "NURU - a lightweight job listings platform fed by an Excel spreadsheet.",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:strict": "node scripts/build.js --strict",
+    "start": "npx --yes serve public"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  },
+  "engines": { "node": ">=18" }
+}
